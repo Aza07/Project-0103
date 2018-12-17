@@ -8,7 +8,7 @@ public class MataUang {
 		  System.out.print("Masukkan nilai tukar Dollar ke Rupiah : ");
 		  Scanner dolar = new Scanner(System.in);
 		  int nilai_tukar = dolar.nextInt();
-		  System.out.print("Masukkan 0 (Dollar ke Rupiah) dan 1 (Rupiah ke Dollar): ");
+		  System.out.print("Masukkan 0 dan 1: ");
 		  Scanner opsi = new Scanner(System.in);
 		  pilihan = opsi.nextInt();
 
