@@ -23,9 +23,9 @@ public class MataUang {
 		   System.out.print("Masukkan Rupiah yang ingin ditukar: ");
 		   Scanner uang = new Scanner(System.in);
 		   double nominal1 = uang.nextDouble();
-		   double rupiahkedolar = nominal1 / nilai_tukar;
+		   double RptoUSD = nominal1 / nilai_tukar;
 		   System.out.println("Rp. " + nominal1
-		     + " yang kamu tukar akan memperoleh USD $" + rupiahkedolar);
+		     + " yang kamu tukar akan memperoleh USD $" + RptoUSD);
 		  } else {
 		   System.out.print("Nilai yang anda inputkan Salah");
 		  }
