@@ -5,7 +5,7 @@ public class MataUang {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 int  pilihan;
-		  System.out.print("Masukkan nilai tukar Dollar ke Rupiah : ");
+		  System.out.print("Masukkan nilai tukar USD ke Rp : ");
 		  Scanner dolar = new Scanner(System.in);
 		  int nilai_tukar = dolar.nextInt();
 		  System.out.print("Masukkan 0 dan 1: ");
