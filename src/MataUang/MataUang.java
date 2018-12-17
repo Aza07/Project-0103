@@ -30,5 +30,5 @@ public class MataUang {
 		   System.out.print("Nilai yang anda inputkan Salah");
 		  }
 		 }
-		}
+		
 
